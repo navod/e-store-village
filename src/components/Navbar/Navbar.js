@@ -3,14 +3,14 @@ import "./navbar.css";
 import Logo from "../../assests/images/Logo.png";
 const Navbar = () => {
   return (
-    <body>
+    <div>
       <nav>
-        <div class="logo">
+        <div className="logo">
           <img src={Logo} />
         </div>
         <ul>
           <li>
-            <a href="" class="active">
+            <a href="" className="active">
               Home
             </a>
           </li>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="">Products</a>
           </li>
           <li>
-            <a href="">Shops</a>
+            <a href="/shop">Shops</a>
           </li>
           <li>
             <a href="">About Us</a>
@@ -35,7 +35,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="nav-space"></div>
-    </body>
+    </div>
   );
 };
 

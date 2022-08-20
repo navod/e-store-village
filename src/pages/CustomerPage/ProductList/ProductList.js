@@ -6,8 +6,8 @@ const ProductList = () => {
   let sampleArray = [{}, {}, {}, {}, {}, {}, {}, {}, {}];
   return (
     <div className="product-list-grid">
-      {sampleArray.map(item => (
-        <ProudctCard />
+      {sampleArray.map((item, index) => (
+        <ProudctCard key={index} />
       ))}
     </div>
   );

@@ -8,23 +8,29 @@
   border-radius: 31px;
 }
 
-.image-container {
-  width: 94px;
+.shop-image-container {
+  width: 150px;
   height: 123 px;
   object-fit: contain;
 }
-.description {
-  color: #9b5708;
-  background-color: #ffefb6;
+.shop-name {
+  text-align: center;
+  color: white;
+  background-color: #02334f;
+  padding: 3% 0;
+  font-size: 20px;
+}
+.shop-description {
   align-self: flex-start;
-  font-size: 11px;
+  font-size: 14px;
   padding-left: 9px;
   padding-right: 20px;
   height: 20px;
   align-items: center;
   display: flex;
-  margin-top: 10%;
-  font-weight: bold;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  font-family: "Poppins";
 }
 
 .price-container {

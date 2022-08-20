@@ -47,7 +47,7 @@ const ProudctCard = () => {
         />
         <button className="yellow-btn">
           <AiOutlineShoppingCart size={20} />
-          Add To Cart
+          Visit The Shop
         </button>
       </div>
     </div>
